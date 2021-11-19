@@ -22,9 +22,8 @@ class InfoScreen extends StatelessWidget {
             Expanded(
               child: Column(
                 children: [
-                  Image.network(
-                      'https://i.pinimg.com/564x/24/24/91/242491732b2bf298261c700e1d33b0e2.jpg',
-                    width: 150, height: 150,
+                  Image.asset("asset/img/info_picture.png",
+                  width: 150, height: 150,
                   ),
                   SizedBox(
                     height: 20,
